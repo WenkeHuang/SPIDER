@@ -13,7 +13,7 @@
 </p>
 
 
-## Abstract
+## 🙌 Abstract
 Multimodal Large Language Model (MLLM) has demonstrated strong generalization capabilities across diverse distributions and tasks, largely due to extensive pre-training datasets. Fine-tuning MLLM has become a common practice to improve performance on specific downstream tasks. However, during fine-tuning, MLLM often faces the risk of forgetting knowledge acquired during pre-training, which can result in a decline in generalization abilities. To balance the trade-off between generalization and specialization, we propose measuring the parameter importance for both pre-trained and fine-tuning distributions, based on frozen pre-trained weight magnitude and accumulated fine-tuning gradient values. We further apply an importance-aware weight allocation strategy, selectively updating relatively important parameters for downstream tasks. We conduct empirical evaluations on both image captioning and visual question-answering tasks using various MLLM architectures. The comprehensive experimental analysis demonstrates the effectiveness of the proposed solution, highlighting the efficiency of the crucial modules in enhancing downstream specialization performance while mitigating generalization degradation in  MLLM Fine-Tuning.
 
 ## 🥳 Citation
@@ -24,7 +24,7 @@ If you find this repository helpful for your research, we would greatly apprecia
 @inproceedings{SPIDER_ICML25,
     title={Learn from Downstream and Be Yourself in Multimodal Large Language Models Fine-Tuning},
     author={Wenke Huang and Jian Liang and Zekun Shi and Didi Zhu and Guancheng Wan and He Li and Bo Du and Dacheng Tao and Mang Ye},
-    booktitle=ICML,
+    booktitle={ICML},
     year={2025}
 }
 
@@ -48,5 +48,7 @@ If you find this repository helpful for your research, we would greatly apprecia
 ## 🔍 Relevant Projects
 [1] Keeping Yourself is Important in Downstream Tuning Multimodal Large Language Model - arXiv 2025  [[Link](https://arxiv.org/abs/2503.04543)][[Code](https://github.com/WenkeHuang/Awesome-MLLM-Tuning)]
 
+[2] Be Confident: Uncovering Overfitting in MLLM Multi-Task Tuning - ICML 2025  [[Link](https://openreview.net/forum?id=bif35if4n3)][[Code](https://github.com/WenkeHuang/NRCA)]
 
-[2] LoRASculpt: Sculpting LoRA for Harmonizing General and Specialized Knowledge in Multimodal Large Language Models - CVPR 2025 Oral [[Link](https://arxiv.org/abs/2503.16843)][[Code](https://github.com/LiangJian24/LoRASculpt)]
+[3] LoRASculpt: Sculpting LoRA for Harmonizing General and Specialized Knowledge in Multimodal Large Language Models - CVPR 2025 Oral [[Link](https://arxiv.org/abs/2503.16843)][[Code](https://github.com/LiangJian24/LoRASculpt)]
+
