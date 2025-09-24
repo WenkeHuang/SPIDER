@@ -1,7 +1,7 @@
 # Learn from Downstream and Be Yourself in Multimodal Large Language Models Fine-Tuning <img src="./assert/SPIDER.png" alt="Logo" width="30" style="vertical-align:middle;"/>
 > Wenke Huang, Jian Liang, Zekun Shi, Didi Zhu, Guancheng Wan, He Li, Bo Du, Dacheng Tao, Mang Ye
 
-> [[Link]([https://openreview.net/pdf?id=FKqmIAnkrb)], *ICML, 2025*
+> [Link]([https://openreview.net/pdf?id=FKqmIAnkrb), *ICML, 2025*
 
 <!-- <p align="center">
 <a href="https://arxiv.org/abs/2411.10928"><img src="https://img.shields.io/badge/arXiv-2411.10928-b31b1b.svg" alt="arXiv Badge"></a>
